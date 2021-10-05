@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaquinaAlmuerzos</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">Easymeal</a>
+
+    <div class="icons">
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <div class="fas fa-palette" id="color-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#gallery">Menús</a>
+        <a href="#pricing">Precios</a>
+        <!-- <a href="#review">Comentarios</a> -->
+        <a href="#contact">contáctanos</a>
+    </nav>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="colors-palette">
+        <h3>Elije un color</h3>
+        <div class="colors">
+            <div class="color" style="background:#2980b9"></div>
+            <div class="color" style="background: #27ae60;"></div>
+            <div class="color" style="background: #e74c3c;"></div>
+            <div class="color" style="background: #8e44ad;"></div>
+            <div class="color" style="background: #B33771;"></div>
+            <div class="color" style="background: #0fb9b1;"></div>
+            <div class="color" style="background: #ff9f1a;"></div>
+            <div class="color" style="background: #e84393;"></div>
+            <div class="color" style="background: #17c0eb;"></div>
+        </div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Obten tu Código QR</h3>
+        <p>Dale click en el boton "QR" para que puedas reclamar tu comida en MachineLunch. No se te olvide elejir un menu y pagar por el.</p>
+        <a href="#services" class="btn">Elegir Menú</a>
+        <!-- <a href="#" class="btn">QR</a> -->
+
+        <div class="btn popup" onclick="myFunction()">QR
+        
+            <img src="images/le - qr.png" class="popuptext" id="myPopup" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+<h1 class="heading"> Nuestros <span>Menús</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <span>01</span>
+        <i class="fas fa-anchor"></i>
+        <h3>Salmon Rolls</h3>
+        <p>Rollitos de salmón rellenos de rúcula y mango bañados en aderezo de hierbas finas y topping de aguacate y queso crema, acompañado de puré de papa gratinado y ensalada primavera.</p>
+    </div>
+
+    <div class="box">
+        <span>02</span>
+        <i class="fas fa-carrot"></i>
+        <h3>Easy Salad</h3>
+        <p>Pasta acompañada de pollo a la parrilla con calabacitas amarillas, espárragos, espinaca, tomates cherry y pepinillos.</p>
+    </div>
+
+    <div class="box">
+        <span>03</span>
+        <i class="fas fa-cocktail"></i>
+        <h3>Fasty Pasta</h3>
+        <p>Pasta acompañada de pollo a la parrilla con calabacitas amarillas, espárragos, espinaca, tomates cherry y pepinillos.</p>
+    </div>
+
+    <div class="box">
+    <span>04</span>
+        <i class="fas fa-coffee"></i>
+        <h3>LOL Crepes</h3>
+        <p>Tortillas de harina de trigo rellenas de salsa de champiñones con pollo, berenjenas salteadas y pimientos con queso gratinado.</p>
+    </div>
+
+    <!-- <div class="box">
+        <span>05</span>
+        <i class="fas fa-envelope"></i>
+        <h3>email marketing</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, iste.</p>
+    </div> -->
+
+    <!-- <div class="box">
+        <span>06</span>
+        <i class="fas fa-headset"></i>
+        <h3>24/7 services</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, iste.</p>
+    </div> -->
+
+</div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <!-- <h1 class="heading"> our <span>gallery</span> </h1> -->
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/1 rollos.jpeg" alt="">
+            <div class="content">
+                <h3>Disponible</h3>
+                <span>Elejir</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/2 salad.jpeg" alt="">
+            <div class="content">
+                <h3>Agotado</h3>
+                <span> ... </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/3 pasta.jpeg" alt="">
+            <div class="content">
+                <h3>Disponible</h3>
+                <span>Elejir</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/4 lol.jpeg" alt="">
+            <div class="content">
+                <h3>Agotado</h3>
+                <span> ... </span>
+            </div>
+        </div>
+
+        <!-- <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>project 05</h3>
+                <span>01/09/2021</span>
+            </div>
+        </div> -->
+
+        <!-- <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>project 06</h3>
+                <span>01/09/2021</span>
+            </div>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- pricing section starts  -->
+
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> Nuestros <span>precios</span> </h1>
+
+    <div class="box-contanier">
+
+        <div class="box">
+            <span class="fas fa-chess-pawn"></span>
+            <h3>Plan Gratuito</h3>
+            <div class="price"> <i>$</i>0<i>/mensuales</i> </div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 3 Qr </li>
+                <!-- <li> <i class="fas fa-check"></i> 2 domicilios </li> -->
+                <li> <i class="fas fa-check"></i> solo efectivo </li>
+                <!-- <li> <i class="fas fa-check"></i> 1 domain </li> -->
+                <li> <i class="fas fa-check"></i> 24/7 servicios </li>
+            </ul>
+            <a href="#" class="btn">Listo! pedir QR</a>
+        </div>
+
+        <div class="box">
+            <span class="fas fa-chess-knight"></span>
+            <h3>Plan Comelón</h3>
+            <div class="price"> <i>$</i>159.9<i>/mensuales</i> </div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 15 QR </li>
+                <li> <i class="fas fa-check"></i> 2 domicilios </li>
+                <li> <i class="fas fa-check"></i> solo efectivo </li>
+                <!-- <li> <i class="fas fa-check"></i> 15 domain </li> -->
+                <li> <i class="fas fa-check"></i> 24/7 servicios </li>
+            </ul>
+            <a href="#" class="btn">Listo! pedir QR</a>
+        </div>
+
+        <div class="box">
+            <span class="fas fa-chess-queen"></span>
+            <h3>Plan Guerrero Tragón</h3>
+            <div class="price"> <i>$</i>319.9<i>/mensuales</i> </div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 30 QR </li>
+                <li> <i class="fas fa-check"></i> 10 domicilios </li>
+                <li> <i class="fas fa-check"></i> Cualquier medio de pago </li>
+                <li> <i class="fas fa-check"></i> 1 Bebida gratis </li>
+                <li> <i class="fas fa-check"></i> 24/7 servicios </li>
+            </ul>
+            <a href="#" class="btn">Listo! pedir QR</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- pricing section ends -->
+
+<!-- review section starts  -->
+
+<!-- <section class="review" id="review">
+
+    <h1 class="heading"> comentarios <span>:)</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-1.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ut veniam modi vitae ad explicabo, provident iusto, officiis voluptatibus debitis possimus sequi blanditiis mollitia excepturi repellendus omnis non doloremque expedita?</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ut veniam modi vitae ad explicabo, provident iusto, officiis voluptatibus debitis possimus sequi blanditiis mollitia excepturi repellendus omnis non doloremque expedita?</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ut veniam modi vitae ad explicabo, provident iusto, officiis voluptatibus debitis possimus sequi blanditiis mollitia excepturi repellendus omnis non doloremque expedita?</p>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contáctanos</span> ahora </h1>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="ID">
+            <input type="text" placeholder="Numero">
+        </div>
+        <textarea name="" placeholder="Escribe tu mensage" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="enviar" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Inicio </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Servicioes </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> menús </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> precios </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> comentarios </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> contáctanos </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +314-407-9306 </a>
+            <!-- <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a> -->
+            <a href="#"> <i class="fas fa-envelope"></i> cesar314407@outlook.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> louiseVanHellsing@gmail.com </a>
+            <!-- <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a> -->
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <!-- <a href="#"> <i class="fab fa-twitter"></i> twitter </a> -->
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <!-- <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a> -->
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <!-- <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-windows"></i> windows </a>
+            <a href="#"> <i class="fab fa-apple"></i> app store </a>
+            <a href="#"> <i class="fab fa-google-play"></i> play store </a>
+        </div> -->
+
+    </div>
+
+    <div class="credit"> &copy; copyright @ 2021 by <span>Cesar Augusto Pérez</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
